@@ -25,7 +25,10 @@ const FeatureItem = ({ title, icon, variant, description }: FeatureItem) => {
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section
+      id="features"
+      className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24"
+    >
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
@@ -39,8 +42,8 @@ const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <Image
-              src="./camp.svg"
-              alt="camp"
+              src="./drone.svg"
+              alt="drone"
               height={50}
               width={50}
               className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"

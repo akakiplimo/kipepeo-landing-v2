@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '#hero', key: 'home', label: 'Home' },
+  { href: '#features', key: 'how_kipepo_works', label: 'How Kipepo Works?' },
+  { href: '#info', key: 'services', label: 'Services' },
+  // { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -18,32 +18,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Integrated Unmanned Aircraft System',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'We design and develop an integrated unmanned aircraft system (Drone) using state of the art technologies',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Image Capture and Data Processing',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      'Using our drone we employ a proprietary blend of technologies in aerial image capture and data processing',
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Precision Agriculture',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'We employ precision agriculture techniques such as crop health monitoring, soil fertility and water retention analysis',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Technology using Augmented Reality',
     icon: '/location.svg',
-    variant: 'orange',
+    variant: 'green',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'We employ an augmented view of your scans from above to be able to derive the best possible information and experience to our users',
   },
 ];
 
@@ -52,35 +52,70 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      {
+        href: 'https://www.linkedin.com/company/kipepeo-aerospace/',
+        key: 'about',
+        label: 'About Kipepo',
+      },
+      {
+        href: 'https://x.com/aero_kipepeo?mx=2',
+        key: 'press',
+        label: 'Press Releases',
+      },
+      {
+        href: 'https://www.linkedin.com/company/kipepeo-aerospace/',
+        key: 'env',
+        label: 'Environment',
+      },
+      {
+        href: 'https://x.com/aero_kipepeo?mx=2',
+        key: 'jobs',
+        label: 'Jobs',
+      },
+      {
+        href: 'https://www.linkedin.com/company/kipepeo-aerospace/',
+        key: 'privacy',
+        label: 'Privacy Policy',
+      },
+      {
+        href: 'https://x.com/aero_kipepeo?mx=2',
+        key: 'contact',
+        label: 'Contact Us',
+      },
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: [
+      {
+        href: 'https://www.linkedin.com/company/kipepeo-aerospace/',
+        key: 'professional',
+        label: 'Kipepeo Professional',
+      },
+      {
+        href: 'https://x.com/aero_kipepeo?mx=2',
+        key: 'social',
+        label: 'Kipepeo Social',
+      },
+    ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Mobile', value: '+254-705-875-103' },
+    { label: 'Email', value: 'hi@kipepeo.space' },
   ],
 };
 
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    { img: '/facebook.svg', href: '/' },
+    { img: '/instagram.svg', href: '/' },
+    { img: '/twitter.svg', href: 'https://x.com/aero_kipepeo?mx=2' },
+    { img: '/youtube.svg', href: '/' },
+    { img: '/wordpress.svg', href: '/' },
   ],
 };

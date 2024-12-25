@@ -4,30 +4,28 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section
+      id="hero"
+      className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row"
+    >
       <div className="hero-map" />
 
       {/* LEFT */}
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-          src="/camp.svg"
-          alt="camp"
+          src="/drone.svg"
+          alt="drone"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-58">Kipepeo Aerospace</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Precision Aerial Solutions, Grounded in Excellence. Kipepeo's flagship
+          project dubbed Kilimo Anga aims to improve on traditional farming
+          methods which affect up to 40% employed by the agricultural industry.
+          Through developing a state of the art unmanned aircraft system.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -44,15 +42,15 @@ const Hero = () => {
                 />
               ))}
           </div>
-          <p className="bold-16 lg:bold-20 text-blue-70">
+          {/* <p className="bold-16 lg:bold-20 text-blue-70">
             198k
             <span className="ml-1 regular-16 lg:regular-20">
               Excellent Reviews
             </span>
-          </p>
+          </p> */}
         </div>
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
+        <div className="flex flex-col w-full gap-3 sm:flex-row py-10">
+          {/* <Button type="button" title="Download App" variant="btn_green" /> */}
           <Button
             type="button"
             title="How we work?"
@@ -69,13 +67,13 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Kajiado Gateaway</p>
+            <p className="bold-20 text-white">Kajiado Farm</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">100.0 kms</p>
+              <p className="regular-16 block text-gray-20">Acreage</p>
+              <p className="bold-20 text-white">100.0 Ha</p>
             </div>
             <div className="flex flex-col">
               <p className="regular-16 block text-gray-20">Elevation</p>
