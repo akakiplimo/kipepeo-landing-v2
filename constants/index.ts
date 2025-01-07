@@ -1,7 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '#hero', key: 'home', label: 'Home' },
-  { href: '#features', key: 'how_kipepo_works', label: 'How Kipepo Works?' },
+  {
+    href: '#features',
+    key: 'how_kipepo_works',
+    label: 'How Kilimo Anga Works?',
+  },
   { href: '#info', key: 'services', label: 'Services' },
   // { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
@@ -112,10 +116,10 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: 'Social',
   links: [
-    { img: '/facebook.svg', href: '/' },
-    { img: '/instagram.svg', href: '/' },
+    {
+      img: '/linkedin.svg',
+      href: 'https://www.linkedin.com/company/kipepeo-aerospace',
+    },
     { img: '/twitter.svg', href: 'https://x.com/aero_kipepeo?mx=2' },
-    { img: '/youtube.svg', href: '/' },
-    { img: '/wordpress.svg', href: '/' },
   ],
 };

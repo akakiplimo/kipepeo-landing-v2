@@ -20,7 +20,7 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-58">Kipepeo Aerospace</h1>
+        <h1 className="bold-52 lg:bold-58">Kilimo Anga</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Precision Aerial Solutions, Grounded in Excellence. Kipepeo's flagship
           project dubbed Kilimo Anga aims to improve on traditional farming
@@ -67,7 +67,7 @@ const Hero = () => {
               <p className="regular-16 text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Kajiado Farm</p>
+            <p className="bold-20 text-white">Kilimo Farm</p>
           </div>
 
           <div className="flexBetween">
