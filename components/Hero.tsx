@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import React from 'react';
 import Button from './Button';
@@ -56,6 +57,12 @@ const Hero = () => {
             title="How we work?"
             variant="btn_white_text"
             icon="/play.svg"
+            onClick={() =>
+              window.open(
+                'https://youtu.be/k4Pm3IRYtOE?si=Mtz6VmJlBQCP_Z74',
+                '_ blank'
+              )
+            }
           />
         </div>
       </div>

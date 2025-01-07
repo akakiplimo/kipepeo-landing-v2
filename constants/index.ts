@@ -2,11 +2,11 @@
 export const NAV_LINKS = [
   { href: '#hero', key: 'home', label: 'Home' },
   {
-    href: '#features',
+    href: '#hero',
     key: 'how_kipepo_works',
     label: 'How Kilimo Anga Works?',
   },
-  { href: '#info', key: 'services', label: 'Services' },
+  { href: '#features', key: 'services', label: 'Services' },
   // { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
