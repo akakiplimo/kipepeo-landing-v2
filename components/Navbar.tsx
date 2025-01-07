@@ -29,6 +29,8 @@ const Navbar = () => {
               href={link.href}
               key={link.key}
               className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              rel={link.key == 'how' ? 'noopener noreferrer' : ''}
+              target={link.key == 'how' ? '_blank' : ''}
             >
               {link.label}
             </Link>

@@ -2,8 +2,8 @@
 export const NAV_LINKS = [
   { href: '#hero', key: 'home', label: 'Home' },
   {
-    href: '#hero',
-    key: 'how_kipepo_works',
+    href: 'https://youtu.be/k4Pm3IRYtOE?si=mUMi2qL3-3QCcZMF&t=63',
+    key: 'how',
     label: 'How Kilimo Anga Works?',
   },
   { href: '#features', key: 'services', label: 'Services' },
