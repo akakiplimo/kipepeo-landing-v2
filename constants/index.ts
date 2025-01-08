@@ -121,5 +121,6 @@ export const SOCIALS = {
       href: 'https://www.linkedin.com/company/kipepeo-aerospace',
     },
     { img: '/twitter.svg', href: 'https://x.com/aero_kipepeo?mx=2' },
+    { img: '/youtube.svg', href: 'https://www.youtube.com/@KipepeoAerospace' },
   ],
 };
