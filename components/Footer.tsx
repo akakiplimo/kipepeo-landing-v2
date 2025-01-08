@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 Kilimo Anga by Kipepeo Aerospace © | All rights reserved
+          Copyright © 2025 Kilimo Anga by Kipepeo Aerospace. All Rights Reserved
         </p>
       </div>
     </footer>
