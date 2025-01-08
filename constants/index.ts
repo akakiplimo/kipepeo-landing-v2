@@ -7,7 +7,6 @@ export const NAV_LINKS = [
     label: 'How Kilimo Anga Works?',
   },
   { href: '#features', key: 'services', label: 'Services' },
-  // { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
 
@@ -109,7 +108,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Mobile', value: '+254-705-875-103' },
-    { label: 'Email', value: 'hi@kipepeo.space' },
+    { label: 'Email', value: 'kipepeo.aerospace@gmail.com' },
   ],
 };
 
