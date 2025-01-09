@@ -6,6 +6,7 @@ export const NAV_LINKS = [
     key: 'how',
     label: 'How Kilimo Anga Works?',
   },
+  { href: '#innovation', key: 'innovation', label: 'Our Product' },
   { href: '#features', key: 'services', label: 'Services' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
