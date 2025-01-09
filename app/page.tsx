@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Hero />
       {/* <Camp /> */}
-      <Innovation />
+      {/* <Innovation /> */}
       <Features />
       {/* <GetApp /> */}
     </>

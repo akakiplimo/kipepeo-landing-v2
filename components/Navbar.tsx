@@ -37,12 +37,12 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="lg:flexCenter hidden p-10">
-          <Button
+          {/* <Button
             type="button"
-            title="Get Started"
+            title="Book A Demo"
             icon="/user.svg"
             variant="btn_dark_green"
-          />
+          /> */}
         </div>
         <div className="lg:hidden p-4">
           <Image
@@ -57,10 +57,11 @@ const Navbar = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="w-full bg-white shadow-md rounded-xl lg:hidden">
+        <div className="w-full bg-white shadow-md rounded-xl text-center lg:hidden">
           <ul>
             {NAV_LINKS.map((link) => (
               <li key={link.key}>
+                <div className="border bg-gray-10 w-[60%] m-auto" />
                 <a
                   onClick={() => setIsMobileMenuOpen(false)}
                   href={link.href}

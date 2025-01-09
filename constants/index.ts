@@ -6,8 +6,8 @@ export const NAV_LINKS = [
     key: 'how',
     label: 'How Kilimo Anga Works?',
   },
-  { href: '#innovation', key: 'innovation', label: 'Our Product' },
-  { href: '#features', key: 'services', label: 'Services' },
+  // { href: '#innovation', key: 'innovation', label: 'Our Product' },
+  { href: '#features', key: 'solution', label: 'Our Solution' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
 
@@ -23,14 +23,14 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: 'Integrated Unmanned Aircraft System',
-    icon: '/map.svg',
+    icon: '/drone_icon.svg',
     variant: 'green',
     description:
       'We design and develop an integrated unmanned aircraft system (Drone) using state of the art technologies',
   },
   {
     title: 'Image Capture and Data Processing',
-    icon: '/calendar.svg',
+    icon: '/camera.svg',
     variant: 'green',
     description:
       'Using our drone we employ a proprietary blend of technologies in aerial image capture and data processing',
@@ -44,7 +44,7 @@ export const FEATURES = [
   },
   {
     title: 'Technology using Augmented Reality',
-    icon: '/location.svg',
+    icon: '/ar.svg',
     variant: 'green',
     description:
       'We employ an augmented view of your scans from above to be able to derive the best possible information and experience to our users',
