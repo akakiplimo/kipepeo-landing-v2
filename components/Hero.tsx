@@ -2,8 +2,11 @@
 import Image from 'next/image';
 import React from 'react';
 import Button from './Button';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
+
   return (
     <section
       id="hero"
@@ -13,7 +16,7 @@ const Hero = () => {
 
       {/* LEFT */}
 
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 bg-white/30">
         <Image
           src="/drone.svg"
           alt="drone"
@@ -22,7 +25,7 @@ const Hero = () => {
           className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-58">Kilimo Anga</h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+        <p className="regular-16 mt-6 text-gray-50 xl:max-w-[520px]">
           Precision Aerial Solutions, Grounded in Excellence. Kipepeo's flagship
           project dubbed Kilimo Anga aims to improve on traditional farming
           methods which affect up to 40% employed by the agricultural industry.
@@ -57,12 +60,7 @@ const Hero = () => {
             title="How we work?"
             variant="btn_white_text"
             icon="/play.svg"
-            onClick={() =>
-              window.open(
-                'https://youtu.be/k4Pm3IRYtOE?si=Mtz6VmJlBQCP_Z74',
-                '_ blank'
-              )
-            }
+            onClick={() => router.push('#video')}
           />
         </div>
       </div>

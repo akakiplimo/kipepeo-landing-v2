@@ -1,13 +1,13 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '#hero', key: 'home', label: 'Home' },
+  // { href: '#innovation', key: 'innovation', label: 'Our Product' },
+  { href: '#features', key: 'solution', label: 'Our Solution' },
   {
-    href: 'https://youtu.be/k4Pm3IRYtOE?si=mUMi2qL3-3QCcZMF&t=63',
+    href: '#video',
     key: 'how',
     label: 'How Kilimo Anga Works?',
   },
-  // { href: '#innovation', key: 'innovation', label: 'Our Product' },
-  { href: '#features', key: 'solution', label: 'Our Solution' },
   { href: '#info', key: 'contact_us', label: 'Contact Us' },
 ];
 

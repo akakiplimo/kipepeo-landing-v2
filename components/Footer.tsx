@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image
-              src="/kipepeo-logo-text.svg"
+              src="/kipepeologo_tagline.svg"
               alt="Kipepeo_Logo"
               width={150}
               height={50}
