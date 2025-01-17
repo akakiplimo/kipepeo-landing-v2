@@ -16,7 +16,7 @@ const Hero = () => {
 
       {/* LEFT */}
 
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 bg-white/30">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 bg-white/10">
         <Image
           src="/drone.svg"
           alt="drone"
@@ -28,8 +28,9 @@ const Hero = () => {
         <p className="regular-16 mt-6 text-gray-50 xl:max-w-[520px]">
           Precision Aerial Solutions, Grounded in Excellence. Kipepeo's flagship
           project dubbed Kilimo Anga aims to improve on traditional farming
-          methods which affect up to 40% employed by the agricultural industry.
-          Through developing a state of the art unmanned aircraft system.
+          methods which affect up to 40% of the Kenyan population employed by
+          the agricultural industry. Through developing a state of the art
+          unmanned aircraft system.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">

@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { NAV_LINKS } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from './Button';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -43,7 +42,7 @@ const Navbar = () => {
       ${isMobileMenuOpen ? 'translate-y-0' : ''}`}
     >
       <div className="flex justify-between items-center">
-        <Link href="/">
+        <Link href="#hero">
           <Image
             src="/kipepeo-logo.svg"
             alt="Kipepeo_Logo"
@@ -116,15 +115,18 @@ const Navbar = () => {
       >
         <div className="flex flex-col justify-center items-center h-full pt-20">
           {/* Company Logo in Mobile Menu */}
-          <div className="mb-12">
+          <Link href="#hero" className="mb-10">
             <Image
               src="/kipepeo-logo.svg"
               alt="Kipepeo_Logo"
               width={100}
               height={66.67}
               className="transition-all duration-300 ease-in-out"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
             />
-          </div>
+          </Link>
           <ul className="space-y-8">
             {NAV_LINKS.map((link) => (
               <li key={link.key} className="text-center">
