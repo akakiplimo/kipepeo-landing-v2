@@ -120,8 +120,8 @@ const Navbar = () => {
             <Image
               src="/kipepeo-logo.svg"
               alt="Kipepeo_Logo"
-              width={150}
-              height={100}
+              width={100}
+              height={66.67}
               className="transition-all duration-300 ease-in-out"
             />
           </div>
